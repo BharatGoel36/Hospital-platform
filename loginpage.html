@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login Page</title>
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+<link rel="stylesheet" type="text/css" href="css/style1.css">
+</head>
+<body>
+<!--
+      <div align = "center" id="loginbox">
+         <div style = "width:300px; border: solid 1px #333333; " >
+            <div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Login</b></div>
+				
+            <div style = "margin:30px">
+               
+               <form action = "login.php" method = "post">
+                  <label class="credentials">UserName  :</label><input type = "text" name = "username" class = "box"/><br /><br />
+                  <label class="credentials">Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
+                  <input type = "submit" value = " Submit "/><br />
+                    <button class="btn waves-effect waves-light" type="submit" value = " Submit ">Submit<i class="material-icons right">send</i></button>
+               </form>
+
+               
+               <div style = "font-size:11px; color:#cc0000; margin-top:10px"><?php echo $error; ?></div>
+					
+            </div>
+				
+         </div>
+			
+      </div>
+-->
+
+<div id="loginbox" class="container">
+<div class="row">
+   <div class="col s12 m12 l12">
+      <h1 class="brand"><span>Consistently</span> <span id="part">Inconsistent</span></h1>
+   </div>
+</div>
+<div class="row">
+<div class="col m4 offset-m4 l4 offset-l4 s12">
+               <form action = "login.php" method = "post">
+                  <label class="credentials">UserName  :</label><input type = "text" name = "username" class = "box"/><br /><br />
+                  <label class="credentials">Password  :</label><input type = "password" name = "password" class = "box" /><br/><br />
+                    <button class="btn waves-effect waves-light sub" type="submit" value = " Submit ">Submit<i class="material-icons right">send</i></button>
+               </form>
+</div>               
+</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+<!-- 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+-->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      
+</body>
+</html>

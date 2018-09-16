@@ -1,0 +1,56 @@
+body {
+   font-family:Arial, Helvetica, sans-serif;
+   font-size:14px;
+   background-color: #ffffff; 
+   }
+
+.container{
+   height: 100%;
+   width: 80%;
+   padding: 5%;
+}   
+
+.mainHeading{
+   color: #26a69a;
+   font-size: 3.5em;
+   text-align: center;
+}
+
+.byline{
+	color: #9E9E9E;
+	font-size: 2em;
+	text-align: center;
+}
+
+.subHeading{
+	color: #26a69a;
+	font-size: 3em;
+}
+
+.info{
+	color: #9E9E9E;
+    font-size: 2em;	
+}
+
+.links{
+	color: #26a69a;
+    font-size: 1.5em;
+}
+
+.spl{
+	font-weight: bold;
+}
+
+label.labell{
+	font-size: 1.3em;
+}
+
+.chatting1{
+	color: #9E9E9E;
+    font-size: 1.3em;
+}
+
+.chatting2{
+	color: #26a69a;
+    font-size: 1em;
+}
